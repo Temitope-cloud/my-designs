@@ -1,0 +1,49 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "year": 2010,
+      "rating": 8.8,
+      "description": "Inception is a science fiction action thriller film about a skilled thief, Dom Cobb (Leonardo DiCaprio), who steals information from people's dreams by infiltrating their subconscious. He's hired for a reverse task: planting an idea into the mind of a powerful business rival, instead of extracting information. This involves entering multiple layers of dreams within dreams, creating a complex and surreal world where reality blurs with the subconscious. ",
+      "image": "https://collider.com/wp-content/uploads/inception_movie_poster_banner_03.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "year": 2008,
+      "rating": 9.0,
+      "description": "Batman battles the Joker, a criminal mastermind bent on chaos.",
+      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "genre": "Adventure",
+      "year": 2014,
+      "rating": 8.6,
+      "description": "A group of astronauts travels through a wormhole in search of a new home for humanity.",
+      "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "year": 1999,
+      "rating": 8.7,
+      "description": "A hacker discovers the world he lives in is a simulated reality.",
+      "image": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Parasite",
+      "genre": "Thriller",
+      "year": 2019,
+      "rating": 8.6,
+      "description": "A poor family's scheme to infiltrate a wealthy household takes a dark turn.",
+      "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    }
+  ]
+}
