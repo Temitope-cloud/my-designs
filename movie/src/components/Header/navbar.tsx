@@ -18,7 +18,7 @@ const Navbar = ({ className }: { className: string }) => {
   console.log(screenSize);
   return (
     <>
-      <div className={`mx-2 mt-1 ${className}`}>
+      <div className={`mx-2 mt-1 ${className} w-[99%]`}>
         {screenSize > 0 && (
           <div
             className={`flex border border-slate-600 backdrop-blur-sm transition-all duration-500 ${
@@ -30,7 +30,7 @@ const Navbar = ({ className }: { className: string }) => {
               <p className="primaryText text-2xl font-semibold uppercase">
                 MovHer
               </p>
-              <div className="mx-2 h-3 w-3 rounded-full bg-blue-500 opacity-80"></div>
+              <div className="mx-2 h-3 w-3 rounded-full bg-[#693c5c] opacity-80"></div>
             </div>
 
             {/* Middle Menu */}
@@ -46,7 +46,9 @@ const Navbar = ({ className }: { className: string }) => {
             </div>
 
             <div className="flex-none px-5">
-              <button className="button rounded-md px-3 py-1">Login In</button>
+              <button className="rounded-md bg-[#693c5c] px-3 py-1">
+                Login In
+              </button>
             </div>
           </div>
         )}

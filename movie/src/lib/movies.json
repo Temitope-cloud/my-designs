@@ -2,21 +2,29 @@
   "movies": [
     {
       "id": 1,
-      "title": "Inception",
+      "title": "Bad Influence",
       "genre": "Sci-Fi",
       "year": 2010,
       "rating": 8.8,
-      "description": "Inception is a science fiction action thriller film about a skilled thief, Dom Cobb (Leonardo DiCaprio), who steals information from people's dreams by infiltrating their subconscious. He's hired for a reverse task: planting an idea into the mind of a powerful business rival, instead of extracting information. This involves entering multiple layers of dreams within dreams, creating a complex and surreal world where reality blurs with the subconscious. ",
-      "image": "https://collider.com/wp-content/uploads/inception_movie_poster_banner_03.jpg"
+      "description": "An ex-con gets a fresh start when hired to protect a wealthy heiress from a stalker — but their chemistry is hard to resist as they grow closer. ",
+      "image": "https://netnaija.xyz/wp-content/uploads/2025/05/Bad-Influence-2025-Download-NetNaija.xyz_.webp",
+      "color": {
+        "btn": "bg-[#5c4621]",
+        "btnHover": "hover:bg-[#90876d]"
+      }
     },
     {
       "id": 2,
-      "title": "The Dark Knight",
+      "title": "#Alive",
       "genre": "Action",
       "year": 2008,
       "rating": 9.0,
-      "description": "Batman battles the Joker, a criminal mastermind bent on chaos.",
-      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+      "description": "As a grisly virus rampages a city, a lone man stays locked inside his apartment, digitally cut off from seeking help and desperate to find a way out.",
+      "image": "https://netnaija.xyz/wp-content/uploads/2020/08/5GvHHK.jpg",
+      "color": {
+        "btn": "bg-[#693c5c]",
+        "btnHover": "hover:bg-[#90876d]"
+      }
     },
     {
       "id": 3,
@@ -25,25 +33,60 @@
       "year": 2014,
       "rating": 8.6,
       "description": "A group of astronauts travels through a wormhole in search of a new home for humanity.",
-      "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+      "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "color": {
+        "btn": "bg-[#5c4621]",
+        "btnHover": "hover:bg-[#90876d]"
+      }
     },
     {
       "id": 4,
-      "title": "The Matrix",
+      "title": "Locked",
       "genre": "Sci-Fi",
       "year": 1999,
       "rating": 8.7,
-      "description": "A hacker discovers the world he lives in is a simulated reality.",
-      "image": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+      "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
+      "image": "https://netnaija.xyz/wp-content/uploads/2025/04/Locked-2025-Download-NetNaija.xyz_.webp"
     },
     {
       "id": 5,
-      "title": "Parasite",
+      "title": "Parasyte: The Grey",
       "genre": "Thriller",
       "year": 2019,
       "rating": 8.6,
-      "description": "A poor family's scheme to infiltrate a wealthy household takes a dark turn.",
-      "image": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+      "description": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
+      "image": "https://www.themoviedb.org/t/p/w1280/9UPneQ4NF7g6WDNSFE5qyt88wJn.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Odela 2",
+      "genre": "Drama",
+      "year": 2014,
+      "rating": 8.5,
+      "description": "It tells the story of a saviour called Odela Mallanna Swamy who protects a village from evil forces.",
+      "image": "https://netnaija.xyz/wp-content/uploads/2025/05/Odela-2-2025-Download-NetNaija.xyz_.webp",
+      "color": {
+        "btn": "bg-[#5c4621]",
+        "btnHover": "hover:bg-[#90876d]"
+      }
+    },
+    {
+      "id": 7,
+      "title": "The Ugly Stepsister",
+      "genre": "Comedy",
+      "year": 2014,
+      "rating": 8.1,
+      "description": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
+      "image": "https://netnaija.xyz/wp-content/uploads/2025/05/The-Ugly-Stepsister-2025-Download-NetNaija.xyz_.webp"
+    },
+    {
+      "id": 8,
+      "title": "Dune",
+      "genre": "Sci-Fi",
+      "year": 2021,
+      "rating": 8.0,
+      "description": "Paul Atreides, a gifted young man, travels to the most dangerous planet in the universe to ensure the future of his people.",
+      "image": "https://m.media-amazon.com/images/I/71rNJQ2g-EL._AC_SY679_.jpg"
     }
   ]
 }
