@@ -61,7 +61,7 @@ const Navbar = ({ className }: { className: string }) => {
           </div>
         )}
 
-        {/* <button onClick={toggleTheme} className="px-4 py-2 rounded button">
+        {/* <button onClick={toggleTheme} className="button rounded px-4 py-2">
           Switch to {theme === "light" ? "Dark" : "Light"} Mode
         </button>
 

@@ -3,14 +3,7 @@ import React, { useRef } from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-
-interface Movie {
-  id: number;
-  title: string;
-  image: string;
-  description: string;
-  slug: string;
-}
+import { Movie } from "@/lib/movieinterface";
 
 const TrendingMovies = () => {
   const [movies, setMovies] = useState<Movie[]>([]);

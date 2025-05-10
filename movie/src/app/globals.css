@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
 
 root {
   --background: #ffffff;
@@ -51,7 +52,7 @@ body {
 } */
 
 .light {
-  @apply bg-[#F9FAFB];
+  @apply bg-amber-50;
 
   .primaryText {
     @apply text-[#111827];
@@ -71,6 +72,10 @@ body {
 
   .boxIcon {
     @apply text-[#111827];
+  }
+
+  .directorText {
+    @apply text-slate-900;
   }
 }
 
@@ -95,5 +100,9 @@ body {
 
   .boxIcon {
     @apply text-[#F1F5F9];
+  }
+
+  .directorText {
+    @apply text-gray-300;
   }
 }

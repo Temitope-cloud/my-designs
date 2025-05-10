@@ -11,7 +11,27 @@
       "color": {
         "btn": "bg-[#5c4621]",
         "btnHover": "hover:bg-[#90876d]"
-      }
+      },
+      "directors": ["Michael Bay", "Sofia Coppola"],
+      "writers": ["Aaron Sorkin", "Emma Thompson"],
+      "actors": ["Chris Evans", "Scarlett Johansson", "Tom Hardy"],
+      "tmdbRating": 8.1,
+      "pgRating": "R",
+      "watchTime": "1h 50m",
+      "availableOn": [
+        {
+          "platform": "Netflix",
+          "link": "https://www.netflix.com/watch/80057281",
+          "color": "#E50914",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        },
+        {
+          "platform": "Hulu",
+          "link": "https://www.hulu.com/movie/123456",
+          "color": "#1CE783",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hulu_Logo.svg"
+        }
+      ]
     },
     {
       "id": 2,
@@ -24,7 +44,33 @@
       "color": {
         "btn": "bg-[#693c5c]",
         "btnHover": "hover:bg-[#90876d]"
-      }
+      },
+      "directors": ["Bong Joon-ho"],
+      "writers": ["Park Chan-wook", "Kim Eun-sook"],
+      "actors": ["Lee Byung-hun", "Kim Tae-ri", "Song Kang-ho", "Jun Ji-hyun"],
+      "tmdbRating": 8.7,
+      "pgRating": "TV-MA",
+      "watchTime": "1h 40m",
+      "availableOn": [
+        {
+          "platform": "Prime Video",
+          "link": "https://www.amazon.com/dp/B08XYZ1234",
+          "color": "#00A8E1",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png"
+        },
+        {
+          "platform": "Disney+",
+          "link": "https://www.disneyplus.com/movies/987654",
+          "color": "#113CCF",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg"
+        },
+        {
+          "platform": "HBO Max",
+          "link": "https://www.hbomax.com/movie/543210",
+          "color": "#5B2E91",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg"
+        }
+      ]
     },
     {
       "id": 3,
@@ -37,7 +83,38 @@
       "color": {
         "btn": "bg-[#5c4621]",
         "btnHover": "hover:bg-[#90876d]"
-      }
+      },
+      "directors": ["Christopher Nolan"],
+      "writers": ["Jonathan Nolan", "Christopher Nolan"],
+      "actors": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Michael Caine"
+      ],
+      "tmdbRating": 8.9,
+      "pgRating": "PG-13",
+      "watchTime": "2h 49m",
+      "availableOn": [
+        {
+          "platform": "Apple TV+",
+          "link": "https://tv.apple.com/movie/123abc",
+          "color": "#000000",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_TV_Plus_Logo.svg"
+        },
+        {
+          "platform": "Peacock",
+          "link": "https://www.peacocktv.com/watch/abc123",
+          "color": "#000000",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Peacock_Logo.svg"
+        },
+        {
+          "platform": "Paramount+",
+          "link": "https://www.paramountplus.com/movies/xyz789",
+          "color": "#0064D2",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Paramount%2B_logo.svg"
+        }
+      ]
     },
     {
       "id": 4,
@@ -46,7 +123,43 @@
       "year": 1999,
       "rating": 8.7,
       "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
-      "image": "https://netnaija.xyz/wp-content/uploads/2025/04/Locked-2025-Download-NetNaija.xyz_.webp"
+      "image": "https://netnaija.xyz/wp-content/uploads/2025/04/Locked-2025-Download-NetNaija.xyz_.webp",
+      "color": {
+        "btn": "bg-[#5c4621]",
+        "btnHover": "hover:bg-[#90876d]"
+      },
+      "directors": ["David Fincher", "Denis Villeneuve"],
+      "writers": ["Aaron Sorkin"],
+      "actors": ["Ryan Reynolds", "Emily Blunt", "Idris Elba", "Zoe Saldana"],
+      "tmdbRating": 7.8,
+      "pgRating": "R",
+      "watchTime": "1h 55m",
+      "availableOn": [
+        {
+          "platform": "Netflix",
+          "link": "https://www.netflix.com/watch/98765432",
+          "color": "#E50914",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        },
+        {
+          "platform": "Prime Video",
+          "link": "https://www.amazon.com/dp/B07XYZ5678",
+          "color": "#00A8E1",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png"
+        },
+        {
+          "platform": "HBO Max",
+          "link": "https://www.hbomax.com/movie/654321",
+          "color": "#5B2E91",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg"
+        },
+        {
+          "platform": "Disney+",
+          "link": "https://www.disneyplus.com/movies/321654",
+          "color": "#113CCF",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg"
+        }
+      ]
     },
     {
       "id": 5,
@@ -55,7 +168,31 @@
       "year": 2019,
       "rating": 8.6,
       "description": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
-      "image": "https://www.themoviedb.org/t/p/w1280/9UPneQ4NF7g6WDNSFE5qyt88wJn.jpg"
+      "image": "https://www.themoviedb.org/t/p/w1280/9UPneQ4NF7g6WDNSFE5qyt88wJn.jpg",
+      "color": {
+        "btn": "bg-[#323c3b]",
+        "btnHover": "hover:bg-[#90876d]"
+      },
+      "directors": ["Hideo Nakata"],
+      "writers": ["Kiyoshi Kurosawa", "Takeshi Obata"],
+      "actors": ["Shota Sometani", "Eri Fukatsu", "Masahiro Higashide"],
+      "tmdbRating": 7.2,
+      "pgRating": "R",
+      "watchTime": "2h 7m",
+      "availableOn": [
+        {
+          "platform": "Hulu",
+          "link": "https://www.hulu.com/movie/789012",
+          "color": "#1CE783",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hulu_Logo.svg"
+        },
+        {
+          "platform": "Paramount+",
+          "link": "https://www.paramountplus.com/movies/abc456",
+          "color": "#0064D2",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Paramount%2B_logo.svg"
+        }
+      ]
     },
     {
       "id": 6,
@@ -68,7 +205,33 @@
       "color": {
         "btn": "bg-[#5c4621]",
         "btnHover": "hover:bg-[#90876d]"
-      }
+      },
+      "directors": ["S. S. Rajamouli"],
+      "writers": ["Trivikram Srinivas"],
+      "actors": ["Prabhas", "Anushka Shetty", "Rana Daggubati", "Tamannaah"],
+      "tmdbRating": 7.5,
+      "pgRating": "PG-13",
+      "watchTime": "2h 45m",
+      "availableOn": [
+        {
+          "platform": "Netflix",
+          "link": "https://www.netflix.com/watch/45678901",
+          "color": "#E50914",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        },
+        {
+          "platform": "Apple TV+",
+          "link": "https://tv.apple.com/movie/def789",
+          "color": "#000000",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_TV_Plus_Logo.svg"
+        },
+        {
+          "platform": "HBO Max",
+          "link": "https://www.hbomax.com/movie/987321",
+          "color": "#5B2E91",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg"
+        }
+      ]
     },
     {
       "id": 7,
@@ -77,7 +240,31 @@
       "year": 2014,
       "rating": 8.1,
       "description": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
-      "image": "https://netnaija.xyz/wp-content/uploads/2025/05/The-Ugly-Stepsister-2025-Download-NetNaija.xyz_.webp"
+      "image": "https://netnaija.xyz/wp-content/uploads/2025/05/The-Ugly-Stepsister-2025-Download-NetNaija.xyz_.webp",
+      "color": {
+        "btn": "bg-[#fc80fd]",
+        "btnHover": "hover:bg-[#90876d]"
+      },
+      "directors": ["Garry Marshall"],
+      "writers": ["Nora Ephron", "Diablo Cody"],
+      "actors": ["Amy Adams", "Meryl Streep", "Anne Hathaway", "Steve Carell"],
+      "tmdbRating": 7.0,
+      "pgRating": "PG",
+      "watchTime": "1h 56m",
+      "availableOn": [
+        {
+          "platform": "Peacock",
+          "link": "https://www.peacocktv.com/watch/xyz123",
+          "color": "#000000",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Peacock_Logo.svg"
+        },
+        {
+          "platform": "Hulu",
+          "link": "https://www.hulu.com/movie/654987",
+          "color": "#1CE783",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hulu_Logo.svg"
+        }
+      ]
     },
     {
       "id": 8,
@@ -86,7 +273,48 @@
       "year": 2021,
       "rating": 8.0,
       "description": "Paul Atreides, a gifted young man, travels to the most dangerous planet in the universe to ensure the future of his people.",
-      "image": "https://m.media-amazon.com/images/I/71rNJQ2g-EL._AC_SY679_.jpg"
+      "image": "https://m.media-amazon.com/images/I/71rNJQ2g-EL._AC_SY679_.jpg",
+      "color": {
+        "btn": "bg-[#5c4621]",
+        "btnHover": "hover:bg-[#90876d]"
+      },
+      "directors": ["Denis Villeneuve"],
+      "writers": ["Eric Roth", "Jon Spaihts"],
+      "actors": [
+        "Timothée Chalamet",
+        "Rebecca Ferguson",
+        "Oscar Isaac",
+        "Zendaya"
+      ],
+      "tmdbRating": 8.3,
+      "pgRating": "PG-13",
+      "watchTime": "2h 35m",
+      "availableOn": [
+        {
+          "platform": "Prime Video",
+          "link": "https://www.amazon.com/dp/B09XYZ3210",
+          "color": "#00A8E1",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png"
+        },
+        {
+          "platform": "Disney+",
+          "link": "https://www.disneyplus.com/movies/654987",
+          "color": "#113CCF",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg"
+        },
+        {
+          "platform": "HBO Max",
+          "link": "https://www.hbomax.com/movie/321987",
+          "color": "#5B2E91",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/17/HBO_Max_Logo.svg"
+        },
+        {
+          "platform": "Netflix",
+          "link": "https://www.netflix.com/watch/12309876",
+          "color": "#E50914",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        }
+      ]
     }
   ]
 }

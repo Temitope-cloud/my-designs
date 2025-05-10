@@ -4,18 +4,7 @@ import axios from "axios";
 import Navbar from "./navbar";
 import { useIsMobile } from "@/lib/screenSize";
 import TrendingMovies from "../trendingMoviex";
-
-interface Movie {
-  id: number;
-  title: string;
-  image: string;
-  description: string;
-  color: {
-    btn: string;
-    btnHover: string;
-  };
-  slug: string;
-}
+import { Movie } from "@/lib/movieinterface";
 
 const Herosection = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
