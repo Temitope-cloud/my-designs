@@ -11,13 +11,13 @@ interface Movie {
   slug: string;
 }
 
-// interface foundMovie {
-//   id: number;
-//   title: string;
-//   image: string;
-//   description: string;
-//   slug: string;
-// }
+interface foundMovie {
+  id: number;
+  title: string;
+  image: string;
+  description: string;
+  slug: string;
+}
 
 const MovieDetails = () => {
   const params = useParams();
