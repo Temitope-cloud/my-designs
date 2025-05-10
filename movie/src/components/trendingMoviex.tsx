@@ -2,12 +2,14 @@
 import React, { useRef } from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 interface Movie {
   id: number;
   title: string;
   image: string;
   description: string;
+  slug: string;
 }
 
 const TrendingMovies = () => {
@@ -55,16 +57,15 @@ const TrendingMovies = () => {
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {movies.slice(1, 10).map((m) => (
-            <div
-              key={m.id}
-              className="w-[200px] flex-shrink-0 transition-transform hover:scale-105"
-            >
-              <img
-                src={m.image}
-                alt={m.title}
-                className="h-[300px] w-full rounded-lg object-cover shadow-lg"
-              />
-            </div>
+            <Link key={m.id} href={`movie/${m.id}`}>
+              <div className="w-[200px] flex-shrink-0 transition-transform hover:scale-105">
+                <img
+                  src={m.image}
+                  alt={m.title}
+                  className="h-[300px] w-full rounded-lg object-cover shadow-lg"
+                />
+              </div>
+            </Link>
           ))}
         </div>
 

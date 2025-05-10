@@ -14,6 +14,7 @@ interface Movie {
     btn: string;
     btnHover: string;
   };
+  slug: string;
 }
 
 const Herosection = () => {
