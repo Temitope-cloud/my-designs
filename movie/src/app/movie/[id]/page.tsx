@@ -29,41 +29,45 @@ const MovieDetails = () => {
   return (
     <>
       <Navbar className="" />
-      <div className="mx-10 mt-5">
-        <div className="flex">
-          {/* Featured Image */}
-          <div>
-            <div className="flex h-103 w-83 items-center justify-center rounded-lg bg-white/30 shadow-md shadow-amber-50 hover:opacity-90">
-              <img
-                src={movie?.image}
-                alt=""
-                className="h-100 w-80 rounded-md object-cover object-bottom"
-              />
+      {movie ? (
+        <div className="mx-10 mt-5">
+          <div className="flex">
+            {/* Featured Image */}
+            <div>
+              <div className="flex h-103 w-83 items-center justify-center rounded-lg bg-white/30 shadow-md shadow-amber-50 hover:opacity-90">
+                <img
+                  src={movie?.image}
+                  alt=""
+                  className="h-100 w-80 rounded-md object-cover object-bottom"
+                />
+              </div>
             </div>
-          </div>
-          {/* Featured Image Ends */}
+            {/* Featured Image Ends */}
 
-          {/* Details */}
-          <div className="ms-5 w-full">
-            <h2 className="primaryText font-[Bebas_Neue] text-6xl tracking-wider uppercase">
-              {movie?.title}
-            </h2>
-            <div className="flex gap-5">
-              {movie?.genre.map((g, index) => (
-                <p className={`primaryText rounded-full bg-slate-700 px-5`}>
-                  {" "}
-                  {g}
-                </p>
-              ))}
+            {/* Details */}
+            <div className="ms-5 w-full">
+              <h2 className="primaryText font-[Bebas_Neue] text-6xl tracking-wider uppercase">
+                {movie?.title}
+              </h2>
+              <div className="flex gap-5">
+                {movie?.genre.map((g, index) => (
+                  <p className={`primaryText rounded-full bg-slate-700 px-5`}>
+                    {" "}
+                    {g}
+                  </p>
+                ))}
+              </div>
+              <div className="flex justify-between">
+                <div>Hello</div>
+                <div>Hello</div>
+              </div>
             </div>
-            <div className="flex justify-between">
-              <div>Hello</div>
-              <div>Hello</div>
-            </div>
+            {/* Details Ends */}
           </div>
-          {/* Details Ends */}
         </div>
-      </div>
+      ) : (
+        <div className="mx-10 mt-5">No movie found</div>
+      )}
     </>
   );
 };
