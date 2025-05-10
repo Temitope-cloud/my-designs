@@ -3,10 +3,10 @@
     {
       "id": 1,
       "title": "Bad Influence",
-      "genre": "Sci-Fi",
+      "genre": ["Sci-Fi", "Action"],
       "year": 2010,
       "rating": 8.8,
-      "description": "An ex-con gets a fresh start when hired to protect a wealthy heiress from a stalker — but their chemistry is hard to resist as they grow closer. ",
+      "description": "An ex-con gets a fresh start when hired to protect a wealthy heiress from a stalker — but their chemistry is hard to resist as they grow closer.",
       "image": "https://netnaija.xyz/wp-content/uploads/2025/05/Bad-Influence-2025-Download-NetNaija.xyz_.webp",
       "color": {
         "btn": "bg-[#5c4621]",
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "title": "#Alive",
-      "genre": "Action",
+      "genre": ["Action", "Horror", "Thriller"],
       "year": 2008,
       "rating": 9.0,
       "description": "As a grisly virus rampages a city, a lone man stays locked inside his apartment, digitally cut off from seeking help and desperate to find a way out.",
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "title": "Interstellar",
-      "genre": "Adventure",
+      "genre": ["Adventure", "Sci-Fi"],
       "year": 2014,
       "rating": 8.6,
       "description": "A group of astronauts travels through a wormhole in search of a new home for humanity.",
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "title": "Locked",
-      "genre": "Sci-Fi",
+      "genre": ["Sci-Fi", "Thriller", "Action"],
       "year": 1999,
       "rating": 8.7,
       "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
@@ -51,7 +51,7 @@
     {
       "id": 5,
       "title": "Parasyte: The Grey",
-      "genre": "Thriller",
+      "genre": ["Thriller", "Sci-Fi", "Horror"],
       "year": 2019,
       "rating": 8.6,
       "description": "When unidentified parasites violently take over human hosts and gain power, humanity must rise to combat the growing threat.",
@@ -60,7 +60,7 @@
     {
       "id": 6,
       "title": "Odela 2",
-      "genre": "Drama",
+      "genre": ["Drama"],
       "year": 2014,
       "rating": 8.5,
       "description": "It tells the story of a saviour called Odela Mallanna Swamy who protects a village from evil forces.",
@@ -73,7 +73,7 @@
     {
       "id": 7,
       "title": "The Ugly Stepsister",
-      "genre": "Comedy",
+      "genre": ["Comedy", "Romance", "Fantasy"],
       "year": 2014,
       "rating": 8.1,
       "description": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
@@ -82,7 +82,7 @@
     {
       "id": 8,
       "title": "Dune",
-      "genre": "Sci-Fi",
+      "genre": ["Sci-Fi", "Action", "Adventure"],
       "year": 2021,
       "rating": 8.0,
       "description": "Paul Atreides, a gifted young man, travels to the most dangerous planet in the universe to ensure the future of his people.",

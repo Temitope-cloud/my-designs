@@ -1,12 +1,20 @@
 "use client";
 import { useTheme } from "@/context/ThemeContext";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MenuDrawer from "./menudrawer";
 import { useScreenWidth } from "@/lib/screenSize";
 
 const Navbar = ({ className }: { className: string }) => {
   const { theme, toggleTheme } = useTheme();
   const screenSize = useScreenWidth();
+
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  if (!hasMounted) return null;
 
   const middleMenu: { name: string }[] = [
     { name: "Home" },
