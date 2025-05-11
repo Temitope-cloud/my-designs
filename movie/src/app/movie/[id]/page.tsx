@@ -6,8 +6,11 @@ import React, { useEffect, useState } from "react";
 import { Movie } from "@/lib/movieinterface";
 import Link from "next/link";
 import { StarRating } from "@/lib/starrating";
+import { useScreenWidth } from "@/lib/screenSize";
 
 const MovieDetails = () => {
+  const screenSize = useScreenWidth();
+  const isMobile = screenSize < 768;
   const params = useParams();
   const id = params.id as string;
   const [movie, setMovie] = useState<Movie | null>(null);
@@ -22,7 +25,7 @@ const MovieDetails = () => {
   }, []);
   return (
     <>
-      {movie ? (
+      {movie && !isMobile ? (
         <div className="relative">
           <img
             src={movie?.image}
@@ -184,8 +187,10 @@ const MovieDetails = () => {
             </div>
           </div>
         </div>
+      ) : movie && isMobile ? (
+        "MOVHER is not available to mobile users for now"
       ) : (
-        <div className="mx-10 mt-5">No movie found</div>
+        "No movie found"
       )}
     </>
   );
