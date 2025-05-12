@@ -188,7 +188,7 @@ const MovieDetails = () => {
           </div>
         </div>
       ) : movie && isMobile ? (
-        "MOVHER is not available to mobile users for now"
+        "MOVHER is not available to  mobile users for now"
       ) : (
         "No movie found"
       )}
