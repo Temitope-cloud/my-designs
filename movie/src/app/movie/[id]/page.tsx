@@ -7,11 +7,14 @@ import { Movie } from "@/lib/movieinterface";
 import Link from "next/link";
 import { StarRating } from "@/lib/starrating";
 import { useScreenWidth } from "@/lib/screenSize";
+import { useTheme } from "@/context/ThemeContext";
 
 const MovieDetails = () => {
   const screenSize = useScreenWidth();
   const isMobile = screenSize < 768;
   const params = useParams();
+  const { theme } = useTheme();
+
   const id = params.id as string;
   const [movie, setMovie] = useState<Movie | null>(null);
   useEffect(() => {
@@ -32,7 +35,9 @@ const MovieDetails = () => {
             alt=""
             className="max-h-screen w-screen object-cover object-center"
           />
-          <div className="absolute top-0 h-full w-screen bg-slate-950/70 px-10 py-5 backdrop-blur-sm">
+          <div
+            className={`absolute top-0 h-full w-screen ${theme === "dark" ? "bg-slate-950/70" : "bg-gray-200/80"} px-10 py-5 backdrop-blur-sm`}
+          >
             <Navbar className="mb-10" />
 
             <div className="flex">
