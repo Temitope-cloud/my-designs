@@ -51,7 +51,7 @@ const MovieDetails = () => {
                   />
                 </div>
               </div>
-              {/* Featured Image Ends */}
+              {/* Featured Image  Ends */}
 
               {/* Details */}
               <div className="ms-5 w-full">
