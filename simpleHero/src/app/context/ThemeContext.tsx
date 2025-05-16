@@ -31,9 +31,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [theme, setTheme] = useState<Theme>(() => {
     const savedTheme =
       typeof window !== "undefined" ? localStorage.getItem("theme") : null;
-    return savedTheme === "dark" || savedTheme === "light"
-      ? savedTheme
-      : "light";
+    return savedTheme === "dark" || savedTheme === "light" ? "light" : "light";
   });
 
   const toggleTheme = () => {
