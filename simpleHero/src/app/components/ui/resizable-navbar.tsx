@@ -235,7 +235,9 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <p className=" text-gray-700 font-semibold  uppercase text-2xl">Simro</p>
+      <p className=" text-purple-700 font-semibold  uppercase text-2xl opacity-60">
+        Simro
+      </p>
     </a>
   );
 };
