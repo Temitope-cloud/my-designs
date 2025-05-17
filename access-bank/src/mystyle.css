@@ -1,0 +1,10 @@
+@keyframes animationGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap");
