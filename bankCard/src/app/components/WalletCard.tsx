@@ -22,7 +22,7 @@ const WalletCard = () => {
       <h2 className="text-lg font-bold text-orange-900 mb-4">My Wallet</h2>
 
       {/* Wallet mouth */}
-      <div className="relative h-16 w-full overflow-hidden rounded-md bg-orange-300 shadow-inner">
+      <div className="relative h-16 w-full overflow-hidden rounded-md bg-orange-400 shadow-inner">
         {/* Animated cards inside */}
         {cards.map((card, index) => (
           <motion.div
