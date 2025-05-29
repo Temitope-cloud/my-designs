@@ -46,7 +46,7 @@ const Navbar = ({ className }: { className: string }) => {
             <div className="hidden w-[50%] md:flex">
               <ul className="flex w-full justify-between gap-2">
                 {middleMenu.map((m, index) => (
-                  <li key={index} className="primaryText text-xl">
+                  <li key={index} className="primaryText text-lg">
                     {m.name}
                   </li>
                 ))}
