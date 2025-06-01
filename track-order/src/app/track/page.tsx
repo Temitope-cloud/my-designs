@@ -111,7 +111,7 @@ const TrackOrder = () => {
 
         <div className="mt-5">
           <div className="flex items-start gap-2 text-slate-800 shadow p-5 rounded-md border-2 border-slate-200">
-            <i className="bx bx-home text-3xl text-slate-600 "></i>
+            <i className="bx bx-home text-3xl text-slate-500 "></i>
 
             <div className="">
               <p className="font-bold">Delivery Address</p>
