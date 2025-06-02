@@ -73,6 +73,11 @@ const MainPage = () => {
     }, 5000);
 
     console.log(updatedUser);
+
+    setName("");
+    setEmail("");
+    setFileSelctedName("");
+    setTicketType("Student");
   };
 
   return (
@@ -146,10 +151,11 @@ const MainPage = () => {
           {newUserId && showUserId && (
             <p>
               {" "}
-              Your Link:{" "}
+              Your Ticket:{" "}
               <a
                 href={`http://localhost:3000/ticket/${newUserId}`}
                 target="_blank"
+                className="font-medium"
               >
                 {" "}
                 {`http://localhost:3000/ticket/${newUserId}`}{" "}
