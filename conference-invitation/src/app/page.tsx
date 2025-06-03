@@ -155,7 +155,7 @@ const MainPage = () => {
               <a
                 href={`http://localhost:3000/ticket/${newUserId}`}
                 target="_blank"
-                className="font-medium"
+                className="font-semibold"
               >
                 {" "}
                 {`http://localhost:3000/ticket/${newUserId}`}{" "}
