@@ -1,0 +1,3 @@
+[submodule "award-winning-website"]
+	path = award-winning-website
+	url = https://github.com/adrianhajdin/award-winning-website.git
