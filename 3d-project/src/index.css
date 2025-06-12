@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+.left-panel {
+  transform: translateY(0);
+}
+
+.right-panel {
+  transform: translateY(0);
+}
+
 @layer base {
   @font-face {
     font-family: "zentry";
